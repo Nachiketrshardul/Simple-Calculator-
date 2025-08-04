@@ -2,16 +2,16 @@
 using namespace std;
 
 int main() {
-    char operator;
+    char op;
     double num1, num2;
 
     cout << "Enter operator (+, -, *, /, %): ";
-    cin >> operator;
+    cin >> op;
 
     cout << "Enter two numbers: ";
     cin >> num1 >> num2;
 
-    switch(operator) {
+    switch(op) {
         case '+':
             cout << num1 << " + " << num2 << " = " << num1 + num2;
             break;
